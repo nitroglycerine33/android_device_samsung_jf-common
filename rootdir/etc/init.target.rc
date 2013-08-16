@@ -440,10 +440,6 @@ service prepare_param /system/bin/prepare_param.sh /dev/block/platform/msm_sdcc.
     group root
     oneshot
 
-service sudaemon /system/xbin/daemonsu --auto-daemon
-    class main
-    user root
-
 #start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class late_start
