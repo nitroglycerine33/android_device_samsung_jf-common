@@ -45,7 +45,6 @@
 <!ELEMENT ImageEncoding EMPTY>
 <!ATTLIST ImageEncoding quality (100|90|80|70|60|50) #REQUIRED>
 <!ELEMENT ImageDecoding EMPTY>
-<!ATTLIST ImageDecoding memCap CDATA #REQUIRED>
 <!ELEMENT Camera EMPTY>
 <!ATTLIST Camera previewFrameRate CDATA #REQUIRED>
 <!ELEMENT EncoderOutputFileFormat EMPTY>
@@ -294,9 +293,9 @@
     </EncoderProfile>
 
     <ImageEncoding quality="100" />
-        <ImageEncoding quality="95" />
+        <ImageEncoding quality="90" />
         <ImageEncoding quality="80" />
-        <ImageDecoding memCap="22000000" />
+        <ImageDecoding memCap="30000000" />
 
     </CamcorderProfiles>
 
@@ -501,9 +500,9 @@
     </EncoderProfile>
 
    <ImageEncoding quality="100" />
-        <ImageEncoding quality="95" />
+        <ImageEncoding quality="90" />
         <ImageEncoding quality="80" />
-        <ImageDecoding memCap="22000000" />
+        <ImageDecoding memCap="30000000" />
 
 
     </CamcorderProfiles>
